@@ -5,10 +5,14 @@ html {
 
 body{
 	margin: 0 0 100px;
-	font-family:  'Barrio', cursive;
-	color: #777777;
+	font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", 
+    "Droid Sans", "Helvetica Neue", sans-serif;
+	color: #7DAAB2;
 	line-height: 150%;
 	box-sizing: border-box;
+	background-color: #FFFBD8;
 }
 
 header {
@@ -16,7 +20,7 @@ header {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 40px;
-	background-color: #4aaaa5;
+	background-color: #B2748E;
 	border-bottom: 2px solid #ccc;
 	overflow: hidden;
 }
@@ -123,8 +127,8 @@ footer {
 	margin-top: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	background: #666666;
-	border-top: 5px solid #4aaaa5;
+	background: #7DAAB2;
+	border-top: 5px solid #84C0CC;
 	margin-top: 40px;
 	width: 100%;
 	color: #fff;
@@ -134,8 +138,7 @@ footer {
     width: 100%;
 }
 /* logo*/
-h1 {
-	font-family:  'Barrio', cursive, serif;
+h1 {font-family: 'Molengo', sans-serif;
 	font-size: 1.75em;
 	font-weight: bolder;
 	letter-spacing: .75px;
@@ -146,14 +149,15 @@ h1 {
 /*heading*/
 h2 {
 	font-size: 1em;
-	font-weight: bolder;
+	font-style: oblique;
 	line-height: 150%;
 	color: white;
 	padding: 0px 0px 30px 0px;
 }
 /*side bar header*/
 h3 {
-	font-size: 1.5em;
+	color: #7DAAB2;
+	font-size: 1em;
 	font-weight: bold;
 	line-height: 75%;
 	
@@ -179,9 +183,8 @@ p {	text-align: left;
 }
 
 .heading{ 
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	border-bottom: 2px solid #cccccc;
+	border-bottom: 2px solid #84C0CC;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
@@ -224,7 +227,6 @@ p {	text-align: left;
 }
 
 .gallery_label {
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	letter-spacing: .75px;
 	color: #fff;
@@ -236,7 +238,6 @@ p {	text-align: left;
 }
 
 .gallery_label:hover {
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	letter-spacing: .75px;
 	color:  #4aaaa5;
@@ -247,7 +248,10 @@ p {	text-align: left;
 	width: 100%;
 }
 
-
+a {
+	text-decoration: none;
+	color:initial;
+}
 
 
 
