@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Optimization cause you can use an acronym with out some redundancy -->
+    <meta name="Just off Lake Shore Drive, A Creative Upstart for Print Design, Experiential Modeling and one Day Full Stack Development, maybe.">
+    <title>Contact Helen Smith, A Creative Upstart.</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Myers Rest -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- start header-->
+    <header>
+        <!-- start logo-->
+        <div class="mast_box">
+            <a href="index.html">
+                <h1 class="left">Helen E. Smith</h1>
+            </a>
+            <!-- start naviagtion bar-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li>|</li>
+                    <!--is there a cleaner way to do this?-->
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li>|</li>
+                    <li><a href="mailto:intaglioplate@yahoo.com?subject=Mail from Portfolio Site">>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--close mast_box-->
+    </header>
+
+    <!--start content-->
+    <main class="clear">
+        <!--start left content-->
+        <section class="left">
+            <article>
+                <h2 class="heading">Contact</h2>
+                <!--<old form>
+  					<h4>Name</h4>
+  					<input type="text" name="name" value="John Smith">
+  					<br>
+  					<h4>Email</h4>
+  					<input type="text" name="email" value="example@gmail.com">
+  					<br>
+  					<h4>Message</h4>
+  					<textarea name="message" rows="15">	
+  					</textarea>
+  					<br>
+  					<input type="submit" value="Submit">
+				</form>	-->
+                <!--new form taken from solution-->
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+        <!--end left content-->
+
+        <!--start sidebar so to speak-->
+        <aside class="right">
+            <h3 class="heading">Connect with Me</h3>
+            <!--default inline image string -->
+            <a href="https://github.com/intaglioplate312" target="_blank"><img src="assets/images/github_icon.png" alt="github icon"></a>
+            <a href="https://www.linkedin.com/in/justofflakeshoredrive/" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedin_icon.png"></a>
+            <a href="https://stackexchange.com/users/10752583/smith93901" target="_blank"><img src="assets/images/stackoverflow_icon.png" alt="stackoverflow_icon.png"></a>
+        </aside>
+    </main>
+    <!--end main contnet area-->
+
+    <footer>
+        <div class="mast_box">
+            <h6>&#9400; 2017 Helen E. Smith</h6>
+        </div>
+        <!--close mast_box-->
+    </footer>
+
+</body>
+
+</html>
