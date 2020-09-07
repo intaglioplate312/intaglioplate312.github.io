@@ -68,13 +68,12 @@ section {
     width: 550px;
 }
 
+
+
 section img {
     width: 200px;
 }
 
-.gallery_box img {
-    width: 279px;
-}
 
 article {
     border: 1px solid #dddddd;
@@ -253,6 +252,13 @@ a {
 
 .gallery_box {
     width: 279px;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery_boxp {
+    width: 490px;
     margin-top: 30px;
     overflow: hidden;
     position: relative;
