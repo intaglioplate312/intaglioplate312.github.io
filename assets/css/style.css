@@ -212,7 +212,11 @@ p {
 a {
     text-decoration: none;
 }
-
+a h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    text-decoration: none;
+}
 .heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
